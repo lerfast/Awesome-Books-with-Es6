@@ -1,7 +1,7 @@
 import { showBooksSection, showAddBookSection, showContactSection } from './modules/navigation.js';
 import { handleFormSubmit } from './modules/books.js';
-import { displayCurrentDate } from './modules/dates.js';
-console.log("hola")
+import displayCurrentDate from './modules/dates.js';
+
 const booksLink = document.getElementById('books-link');
 const addBookLink = document.getElementById('add-book-link');
 const contactLink = document.getElementById('contact-link');
